@@ -56,19 +56,27 @@
 				<li>Load ALL dependencies in the HTML &lt;head&gt; tag. Why? Because your technical lead said so. :P</li>
 				<li>Feel the fuzzy!</li>
 			</ol>
-			<hr>
-			<p>Do you accept this challenge?</p>
-			<form class="form-inline" onSubmit="alert('Come to 183 mark 214, three quarter impulse. Fire all phasers on mark.');">
-				<div class="checkbox">
-					<input type="radio" name="choice" value="yes">
-					<label for="yes">Yes</label>
+			<form onSubmit="alert('Come to 183 mark 214, three quarter impulse. Fire all phasers on mark.');">
+				<div class="form-group">
+					<label for="acceptChallenge">Do You Accept This Challenge?</label>
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="radio-inline">
+								<label>
+									<input type="radio" name="choice" value="yes">Yes!
+								</label>
+							</div>
+							<div class="radio-inline">
+								<label>
+									<input type="radio" name="choice" value="sure">Sure!
+								</label>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-success" type="submit"><i class="fa fa-check"></i> Commit!</button>
 				</div>
-				<div class="checkbox">
-					<input type="radio" name="choice" value="sure">
-					<label for="sure">Sure</label>
-				</div>
-				<button class="btn btn-success" type="submit"><i class="fa fa-check"></i> Commit!</button>
 			</form>
+			<hr>
 			<img class="img-responsive" src="images/wireframe.svg" alt="wireframe">
 		</div>
 	</body>
