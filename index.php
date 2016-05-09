@@ -11,6 +11,9 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+		<!-- Font Awesome -->
+		<link type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" />
+
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -50,9 +53,22 @@
 				<li>Use whatever images and text you like.</li>
 				<li>No copy/pasting from existing projects! The challenge here is to create this layout <strong>from scratch</strong>.</li>
 				<p>Source your dependencies and resources as needed, and use the Bootstrap documentation freely. Do not use example projects, pre-built templates, tutorials, or third-party code snippets as a head start. All of your new co-workers will know if you do, and that might be embarrassing for you. <em>**Code taken from the official Bootstrap documentation, FontAwesome documentation, and CDN links excepted.**</em></p>
-				<li>Load ALL dependecies in the HTML &lt;head&gt; tag. Why? Because your technical lead said so. :P</li>
+				<li>Load ALL dependencies in the HTML &lt;head&gt; tag. Why? Because your technical lead said so. :P</li>
+				<li>Feel the fuzzy!</li>
 			</ol>
 			<hr>
+			<p>Do you accept this challenge?</p>
+			<form class="form-inline" onSubmit="alert('Come to 183 mark 214, three quarter impulse. Fire all phasers on mark.');">
+				<div class="checkbox">
+					<input type="radio" name="choice" value="yes">
+					<label for="yes">Yes</label>
+				</div>
+				<div class="checkbox">
+					<input type="radio" name="choice" value="sure">
+					<label for="sure">Sure</label>
+				</div>
+				<button class="btn btn-success" type="submit"><i class="fa fa-check"></i> Commit!</button>
+			</form>
 			<img class="img-responsive" src="images/wireframe.svg" alt="wireframe">
 		</div>
 	</body>
