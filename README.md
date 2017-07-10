@@ -1,2 +1,2 @@
-# bootstrap-practice
-an intermediate practice exercise for Bootstrap
+# bootstrap-challenge
+an intermediate practice exercise for Bootstrap v3.x
