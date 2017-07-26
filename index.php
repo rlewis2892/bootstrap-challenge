@@ -36,7 +36,7 @@
 		<div class="container">
 			<div class="well m-t-2">
 				<h2 class="m-t-0">Front End Dev Challenge</h2>
-				<p>This exercise is intended to be the next level Bootstrap challenge. Use the Bootstrap Grid system to achieve the layouts shown in the wireframes below.</p>
+				<p>This exercise is intended to be the next level Bootstrap challenge. Use the Bootstrap Grid system and built-in UI components to create layout shown in the wireframes below.</p>
 			</div>
 
 			<h3>Your Challenge Should You Choose to Accept It</h3>
@@ -47,12 +47,12 @@
 
 			<h3>Rules</h3>
 			<ol>
-				<li>Create a new project that contains ONE index.php file that implements the layout in the wireframe below. This layout should be fully responsive, and conform to the mobile layout on small devices.</li>
-				<li>No custom CSS - use Bootstrap's defaults and built-in classes. If, AND ONLY IF, you are able to successfully code this layout using Bootstrap alone, then you may experiment with custom CSS for styling purposes.</li>
-				<li>Sole Exception to Rule 2: It is recommended that you implement the Flexbox Sticky Footer.</li>
-				<li>Use whatever images and text you like.</li>
-				<li>No copy/pasting from existing projects! The challenge here is to create this layout <strong>from scratch</strong>.</li>
-				<p>Source your dependencies and resources as needed, and use the Bootstrap documentation freely. Do not use example projects, pre-built templates, tutorials, or third-party code snippets as a head start. All of your new co-workers will know if you do, and that might be embarrassing for you. <em>**Code taken from the official Bootstrap documentation, FontAwesome documentation, and CDN links excepted.**</em></p>
+				<li>Create a new project that contains ONE PAGE that successfully implements the layout shown in the wireframes below. This layout should be fully responsive, and conform to the mobile layout on small devices.</li>
+				<li>Custom design and style is not the point of the exercise, so stick with Bootstrap's default UI styles. If, AND ONLY IF, you are able to successfully create this layout using the Bootstrap defaults, then you may experiment with truly custom styling.</li>
+				<li>Hint: You'll probably need some custom CSS and a "Sticky Footer" solution. Everything you need is in the bootcamp-coders documentation.</li>
+				<li>Use whatever placeholder images and text you like.</li>
+				<li><strong>No copy/pasting from templates or existing projects!</strong> The challenge here is to create this layout <strong>from scratch</strong>.</li>
+				<p>Source your dependencies and resources as needed, and use the Bootstrap documentation freely. Do not use example projects, pre-built templates, tutorials, or third-party code snippets as a head start. All of your new co-workers will know if you do, and that might be embarrassing for you. <em>**Code taken from the <strong>official Bootstrap documentation</strong>, FontAwesome documentation, and CDN links excepted.**</em></p>
 				<li>Load ALL dependencies in the HTML &lt;head&gt; tag. Why? Because your technical lead said so. :P</li>
 				<li>Feel the fuzzy!</li>
 			</ol>
@@ -76,8 +76,16 @@
 					<button class="btn btn-success" type="submit"><i class="fa fa-check"></i> Commit!</button>
 				</div>
 			</form>
+
 			<hr>
-			<img class="img-responsive" src="images/wireframe.svg" alt="wireframe">
+
+			<h2>Desktop Layout</h2>
+			<p>These wireframes were created using <a href="https://mockflow.com/" target="_blank">mockflow.com</a>.</p>
+			<img src="images/Desktop_Layout.png" alt="desktop wireframe" class="img-responsive">
+
+			<h2>Mobile Layout</h2>
+			<img src="images/Mobile_Layout.png" alt="mobile wireframe" class="img-responsive">
+
 		</div>
 	</body>
 </html>
