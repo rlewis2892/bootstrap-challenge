@@ -37,15 +37,15 @@
 				<h3>Rules</h3>
 				<ol>
 					<li>Create a new project that contains ONE PAGE that successfully implements the layout shown in the wireframes below. This layout should be fully responsive, and conform to the mobile layout on small devices.</li>
-					<li>Use Bootstrap's built-in classes to the greatest extent possible for style. ONLY AFTER you are able to successfully create this layout using built-in Bootstrap classes and styles you can add truly custom styling.</li>
-					<li>Use whatever placeholder images and text you like.</li>
-					<li><strong>No copy/pasting from templates or existing projects!</strong> The challenge here is to create this layout <strong>from scratch</strong>.</li>
-					<div>Source your dependencies and resources as needed, and use the Bootstrap documentation freely. Do not use example projects, pre-built templates, tutorials, or third-party code snippets as a head start. All of your new co-workers will know if you do. <em>**Code taken from the <strong>official Bootstrap documentation</strong>, FontAwesome documentation, and CDN links excepted.**</em></div>
+					<li>Use Bootstrap's built-in classes to the greatest extent possible for style. Add custom styling of your own only after all Bootstrap possibilities have been exhausted.</li>
+					<li>Use whatever content, placeholder images and text you want.</li>
+					<li>You can copy snippets from the Bootstrap Official Documentation where you need to, BUT <strong>no copy/pasting from pre-built templates, other websites, or existing projects!</strong> The challenge here is to create this layout <strong>from scratch</strong>.</li>
 					<li>Load ALL dependencies in the HTML &lt;head&gt; tag. Why? Because your technical lead said so. :P</li>
 					<li>Feel the fuzzy!</li>
 				</ol>
+				<div>Source your dependencies and resources as needed, and use the Bootstrap documentation freely. Do not use example projects, pre-built templates, tutorials, or third-party code snippets as a head start. All of your new co-workers will know if you do. <em>**Code taken from the <strong>official Bootstrap documentation</strong>, FontAwesome documentation, and CDN links excepted.**</em></div>
 				<form onSubmit="alert('Come to 183 mark 214, three quarter impulse. Fire all phasers on mark.');">
-					<h5>Do You Accept This Challenge?</h5>
+					<h5 class="mt-5">Do You Accept This Challenge?</h5>
 					<div class="form-group">
 						<div class="form-check form-check-inline">
 							<label>
